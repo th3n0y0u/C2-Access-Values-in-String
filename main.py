@@ -31,5 +31,23 @@ var1 = "Hello World!"
 var2 = "Python Programming"
 # 1. print 'h' from var2
 print(var2[3])
+
 # 2. print 'hi' from using var1, and var2
+
 print(var1[0] + var2[-3])
+
+print(var1[0] + var2 [15])
+print(var2[3] + var2 [15]) 
+
+print(var1[4:7])
+print(var2.find(" ")) # returns the index of the first matched character(s)
+print(var2[0:var2.find(" ")])
+
+if("Python" in var2):
+  print("YAAAAAAAAY!")
+else:
+  print("NAAAAAYYYYY")
+
+print(ord('A'))
+print(chr(75))
+print(chr(0))
